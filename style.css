@@ -1,0 +1,299 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.logo {
+  width: 45px;
+}
+header {
+  background-color: rgb(255, 102, 196);
+  padding: 2rem 0;
+  padding: 2rem 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 5vh;
+  box-shadow: 0px 0px 15px rgba(124, 124, 124, 0.796);
+}
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1, 2rem;
+  line-height: 1, 6em;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-right: 40px;
+}
+.navigation ul li {
+  display: inline-block;
+}
+.navigation ul li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: white;
+  transition: all 0.2s linear;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: lighter;
+}
+.navigation ul li a:hover {
+  background: rgba(204, 204, 204, 0.162);
+}
+
+.presentacion {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: rgb(63, 85, 83);
+  padding: 95px;
+}
+.presentacion h1 {
+  color: rgb(255, 102, 196);
+  font-size: 40px;
+}
+.presentacion img {
+  width: 430px;
+}
+
+.btn-presentacion {
+  width: 150px;
+  height: 40px;
+  border-radius: 60px;
+  border: none;
+  background-color: rgb(255, 102, 196);
+  color: white;
+  cursor: pointer;
+}
+.mis_conocimientos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+}
+.mis_conocimientos h1 {
+  color: white;
+  text-shadow: 2px 2px 5px rgb(255, 22, 177);
+  font-size: 30px;
+  font-weight: bolder;
+}
+.mis_conocimientos > p {
+  font-weight: bolder;
+  color: rgba(133, 128, 128, 0.875);
+}
+.container-cto p {
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-shadow: 1px 1px rgb(157, 157, 157);
+}
+.container-cto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 85%;
+}
+.container-cto > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+  transition: all 0.2s;
+  margin: 30px;
+  background-color: white;
+  width: 15vw;
+  height: 23vh;
+  border: 1px solid rgb(221,223,229);
+  border-radius: 15px;
+}
+.container-cto i {
+  font-size: 5rem;
+}
+.img-cto {
+  transition: all 300ms ease;
+  padding: 10px;
+}
+.img-cto:hover {
+  color: rgb(191, 102, 255);
+  border: 1px double rgb(191, 102, 255);
+}
+
+.container-cita {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(255, 102, 196);
+  padding: 30px;
+  height: 50vh;
+  color: white;
+  margin-top: 30px;
+  border: 1px double rgb(175, 116, 116);
+  font-weight: bolder;
+}
+.container-cita i {
+  margin-bottom: 25px;
+  font-size: 5rem;
+  color: rgba(128, 128, 128, 0.349);
+  text-shadow: 2px 2px white;
+}
+.container-cita h3 {
+  margin-top: 40px;
+  font-weight: bolder;
+}
+.my_proyect img {
+  width: 250px;
+  height: 150px;
+}
+.container_proyect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  margin-left: 60px;
+  margin-right: 60px;
+  transition: all 300ms ease;
+}
+.container_proyect .my_proyect:hover{
+  border: 1px solid blueviolet;
+  color: blueviolet;
+  font-weight: 600;
+}
+.proyect {
+  text-align: center;
+  padding: 20px;
+}
+.proyect h1{
+  color: white;
+  text-shadow: 2px 2px 5px rgb(255, 22, 177);
+  font-size: 30px;
+  font-weight: bolder;
+}
+.my_proyect {
+  margin: 10px;
+  border-radius: 20px;
+  color: gray;
+  border: solid 1px rgb(224, 224, 224);
+  padding: 15px;
+  width: 240px;
+  height: 200px;
+  text-align: center;
+}
+
+.my_proyect a {
+  text-decoration: none;
+}
+
+.container-form{
+  display: flex;
+  justify-content: center;
+}
+.contact{
+  padding: 90px;
+}
+.container-form h1{
+  color: white;
+  text-shadow: 2px 2px 5px rgb(255, 22, 177);
+  font-size: 30px;
+  font-weight: bolder;
+}
+.container-text{
+  width: 40%;
+  margin: 20px;
+}
+.container-text div{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-decoration: none;
+}
+.container-text a{
+  text-decoration: none;
+  color: rgb(255, 102, 196);
+  margin: 2%;
+  font-family:"Montserrat", sans-serif;
+  font-size: 15px;
+  width: 20%;
+
+}
+.form-contact{
+  width: 40%;
+  margin: 20px;
+}
+input{
+  margin:7px;
+  border-radius: 5px;
+  background-color: bisque;
+  border: solid 2px bisque;
+  width: 400px;
+  height: 30px;
+}
+input:focus{
+  outline: none;
+  border: rgba(255, 22, 177, 0.784) 2px solid;
+}
+
+input[type=button]{
+  margin-top: 20px;
+  width: 35%;
+  background-color: rgba(255, 22, 177, 0.872);
+  cursor: pointer;
+  color: white;
+}
+input[type=button]:hover{
+ background-color: rgb(255, 102, 196);
+}
+textarea{
+  border-radius: 5px;
+  border: bisque 2px solid;
+  background-color: bisque;
+}
+textarea:focus{ 
+  outline: none;
+  border: rgb(255, 22, 177, 0.784) 2px solid;
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 102, 196);
+  padding: 4rem 0;
+  text-align: center;
+  margin-top: 6rem;
+  font-weight: 600;
+}
+.container-footer a {
+  display: inline-block;
+  margin: 7px;
+  background-color: white;
+  border-radius: 80px;
+  border: none;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: rgb(255, 102, 196);
+  transition: all 300ms ease;
+}
+.container-footer a:hover {
+  color: rgba(159, 159, 222, 0.497);
+}
