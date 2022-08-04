@@ -3,7 +3,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 .logo {
-  width: 45px;
+  width: 11%;
 }
 header {
   background-color: rgb(255, 102, 196);
@@ -49,47 +49,54 @@ header div {
 }
 
 .presentacion {
-  margin-top: 80px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin-top: 5%;
+  padding-top: 10%;
   align-items: center;
-  margin-left: 100px;
-  margin-right: 100px;
   color: rgb(63, 85, 83);
-  padding: 95px;
 }
 .presentacion h1 {
   color: rgb(255, 102, 196);
-  font-size: 40px;
+  font-size: 3rem;
 }
 .presentacion img {
-  width: 430px;
+  width: 25%;
 }
 
 .btn-presentacion {
-  width: 150px;
+  width: 50%;
   height: 40px;
   border-radius: 60px;
   border: none;
-  background-color: rgb(255, 102, 196);
+  background-color: rgb(255, 22, 177, 0.872);
   color: white;
   cursor: pointer;
 }
+.btn-presentacion:hover {
+  background-color: rgb(255, 102, 196);
+}
+
 .mis_conocimientos {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding: 100px;
+  padding-top: 10%;
+  margin-top: 8%;
 }
 .mis_conocimientos h1 {
   color: white;
   text-shadow: 2px 2px 5px rgb(255, 22, 177);
-  font-size: 30px;
+  font-size: 2rem;
   font-weight: bolder;
 }
 .mis_conocimientos > p {
   font-weight: bolder;
   color: rgba(133, 128, 128, 0.875);
+  font-size: 95%;
+  margin-right: 8%;
+  margin-left: 8%;
 }
 .container-cto p {
   font-weight: bold;
@@ -102,28 +109,26 @@ header div {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  width: 85%;
+  width: 75%;
 }
 .container-cto > div {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 30px;
   transition: all 0.2s;
-  margin: 30px;
+  margin: 2%;
   background-color: white;
   width: 15vw;
-  height: 23vh;
-  border: 1px solid rgb(221,223,229);
-  border-radius: 15px;
+  border: 1px solid rgb(221, 223, 229);
+  border-radius: 5%;
 }
 .container-cto i {
   font-size: 5rem;
 }
 .img-cto {
   transition: all 300ms ease;
-  padding: 10px;
+  padding: 1rem;
 }
 .img-cto:hover {
   color: rgb(191, 102, 255);
@@ -135,11 +140,12 @@ header div {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: rgb(255, 102, 196);
-  padding: 30px;
-  height: 50vh;
+  background-image: url(Img/gif2.gif);
+  background-size: cover;
+  padding: 5%;
+  height: 10%;
   color: white;
-  margin-top: 30px;
+  margin-top: 10%;
   border: 1px double rgb(175, 116, 116);
   font-weight: bolder;
 }
@@ -150,26 +156,26 @@ header div {
   text-shadow: 2px 2px white;
 }
 .container-cita h3 {
-  margin-top: 40px;
+  margin-top: 10%;
   font-weight: bolder;
 }
+
 .my_proyect img {
-  width: 250px;
+  width: 70%;
   height: 150px;
 }
 .container_proyect {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
   width: 90%;
-  margin-top: 70px;
-  margin-bottom: 50px;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 10%;
   transition: all 300ms ease;
 }
-.container_proyect .my_proyect:hover{
+.container_proyect .my_proyect:hover {
   border: 1px solid blueviolet;
   color: blueviolet;
   font-weight: 600;
@@ -177,8 +183,10 @@ header div {
 .proyect {
   text-align: center;
   padding: 20px;
+  color: rgba(133, 128, 128, 0.875);
+
 }
-.proyect h1{
+.proyect h1 {
   color: white;
   text-shadow: 2px 2px 5px rgb(255, 22, 177);
   font-size: 30px;
@@ -198,79 +206,106 @@ header div {
 .my_proyect a {
   text-decoration: none;
 }
-
-.container-form{
+.contact {
   display: flex;
   justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 10%;
 }
-.contact{
-  padding: 90px;
-}
-.container-form h1{
+.contact h1{
+  text-align: center;  
   color: white;
   text-shadow: 2px 2px 5px rgb(255, 22, 177);
-  font-size: 30px;
+  font-size: 3rem;
   font-weight: bolder;
 }
-.container-text{
-  width: 40%;
-  margin: 20px;
+.contact p{
+  color: rgba(133, 128, 128, 0.875);
+  margin: 5%;
+
 }
-.container-text div{
+.container-form {
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgba(128, 128, 128, 0.48);
+  border-radius: 5%;
+  width: 70%;
+  height: 50%;
+  box-shadow: 4px 13px 43px -14px rgba(230, 163, 230, 1);
+}
+.container-text {
+  width: 40%;
+  height: 40%;
+  margin: 5%;
+}
+.container-text div {
   display: flex;
   justify-content: center;
   flex-direction: column;
   text-decoration: none;
+  margin: 5%;
 }
-.container-text a{
+.container-text div a {
   text-decoration: none;
   color: rgb(255, 102, 196);
   margin: 2%;
-  font-family:"Montserrat", sans-serif;
-  font-size: 15px;
-  width: 20%;
+}
+.container-text div i{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 1rem;
+}
+.container-text i:hover {
+  color: rgb(191, 102, 255);
+}
 
+.form-contact {
+  color: rgb(255, 102, 196);
+  font-weight: bolder;
+  margin: 5%;
+  width: 50%;
 }
-.form-contact{
-  width: 40%;
-  margin: 20px;
+
+input {
+  margin: 1%;
+  border-radius: 5%;
+  background-color: rgba(244, 89, 185, 0.266);
+  border: solid 2px rgba(244, 89, 185, 0.266);
+  width: 100%;
+  height: 100%;
 }
-input{
-  margin:7px;
-  border-radius: 5px;
-  background-color: bisque;
-  border: solid 2px bisque;
-  width: 400px;
-  height: 30px;
-}
-input:focus{
+
+input:focus {
   outline: none;
   border: rgba(255, 22, 177, 0.784) 2px solid;
 }
 
-input[type=button]{
-  margin-top: 20px;
-  width: 35%;
+input[type="button"] {
+  margin-top: 10%;
+  width: 10rem;
+  height: 2rem;
   background-color: rgba(255, 22, 177, 0.872);
   cursor: pointer;
   color: white;
+  font-size: 1.1em;
 }
-input[type=button]:hover{
- background-color: rgb(255, 102, 196);
+input[type="button"]:hover {
+  background-color: rgb(255, 102, 196);
 }
-textarea{
-  border-radius: 5px;
-  border: bisque 2px solid;
-  background-color: bisque;
+textarea {
+  border-radius: 2%;
+  border: rgba(244, 89, 185, 0.266) 2px solid;
+  background-color: rgba(244, 89, 185, 0.266);
 }
-textarea:focus{ 
+textarea:focus {
   outline: none;
-  border: rgb(255, 22, 177, 0.784) 2px solid;
+  border: rgba(255, 22, 177, 0.784) 2px solid;
 }
-form{
+form {
   display: flex;
   flex-direction: column;
 }
+
 footer {
   display: flex;
   justify-content: center;
@@ -296,4 +331,48 @@ footer {
 }
 .container-footer a:hover {
   color: rgba(159, 159, 222, 0.497);
+}
+
+@media (max-width: 1100px) {
+  header {
+    display: none;
+  }
+  .presentacion {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3rem;
+    text-align: center;
+  }
+  .presentacion img {
+    margin-top: 10%;
+    width: 50%;
+  }
+  .mis_conocimientos {
+    display: flex;
+    text-align: center;
+  }
+  .container-cto {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container-cto div {
+    width: 25vw;
+  }
+
+  .container-form {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    box-shadow: none;
+    width: 100%;
+    height: 100%;
+  }
+  .container-text {
+    margin: 0%;
+    width: 100%;
+  }
+  .form-contact {
+    width: 80%;
+  }
 }
